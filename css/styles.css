@@ -207,6 +207,9 @@ h2, p {
 	justify-content: space-between;
 }
 
+
+
+
 /*========================================
 *
 *           our works
@@ -250,6 +253,21 @@ margin: auto;
 *
 *=========================================*/
 
+.servicesection {
+  display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.servicecontainer {
+  background-color: #3aa4d4;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 6%;
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 #service {
 	flex: 1;

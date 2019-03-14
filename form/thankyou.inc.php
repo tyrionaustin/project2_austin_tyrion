@@ -78,7 +78,7 @@ footer {
 <header>
   <nav>
     <ul>
-      <li><a href="#home" onClick="history.go(-1)">home</a></li>
+      <li><a href="p2_austin_tyrion/index.html">home</a></li>
       <li><a href="#about">about us</a></li>
       <li><a href="#work">our work</a></li>
       <li><a href="#services">services</a></li>
