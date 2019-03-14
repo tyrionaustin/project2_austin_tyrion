@@ -72,7 +72,7 @@ h1, h2 {
 h1	{
 	text-align: center;
 	margin-top: 5%;
-	padding: 2% 0;
+	padding: 1% 0;
 	clear: both;
 	font-size: 2em;
 }
@@ -176,12 +176,12 @@ h2, p {
 
 #column1 {
 	flex: 1;
-	padding: 2%;
 }
 
 #column2 {
 	flex: 1;
-	padding: 2%;
+	width: 100%;
+
 }
 
 .container {
@@ -193,6 +193,19 @@ h2, p {
 	flex-direction: row;
 	justify-content: center;
 }
+.homesection {
+	display: flex;
+	flex-direction: column;
+}
+.homecontainer {
+  background-color: #3aa4d4;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 6%;
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 /*========================================
 *
@@ -202,8 +215,8 @@ h2, p {
 *=========================================*/
 .works p{
 text-align:center;
-width:700px;
-max-width:100%;
+width:100%;
+max-width:700px;
 margin: auto;
 }
 
