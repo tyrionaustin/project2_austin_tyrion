@@ -1,6 +1,6 @@
 <style type="text/css">
 @font-face {
-    font-family: 'Infinite Stroke';
+    font-family: 'Infinite_Stroke';
     src: url('../fonts/infinite_stroke.otf') format('opentype');
 }
 

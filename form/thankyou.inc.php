@@ -1,6 +1,6 @@
 <style type="text/css">
 @font-face {
-    font-family: 'Infinite Stroke';
+    font-family: 'Infinite_Stroke';
     src: url('../fonts/infinite_stroke.otf') format('opentype');
 }
 
@@ -78,7 +78,7 @@ footer {
 <header>
   <nav>
     <ul>
-      <li><a href="#home">home</a></li>
+      <li><a href="#home" onClick="history.go(-1)">home</a></li>
       <li><a href="#about">about us</a></li>
       <li><a href="#work">our work</a></li>
       <li><a href="#services">services</a></li>
