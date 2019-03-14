@@ -168,6 +168,158 @@ h2, p {
 	padding-bottom: 1%;
 }
 
+.container {
+  background-color: #3aa4d4;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+	flex-direction: row;
+}
+
+/*========================================
+*
+*           our works
+*
+*
+*=========================================*/
+.works p{
+text-align:center;
+margin: 0 auto;
+}
+
+.works img {
+  width: 250px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.works:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+.works {
+  text-align:center;
+}
+
+.mediaplayer div {
+  float: right;
+  display: inline-block;
+  width: 50%;
+}
+
+/*========================================
+*
+*           service
+*
+*
+*=========================================*/
+
+
+
+#service {
+	flex: 1;
+}
+
+#services {
+	flex: 1;
+}
+
+
+
+
+/*========================================
+*
+*           section breaks
+*
+*
+*=========================================*/
+.section-break {
+  padding: 150px 0;
+}
+
+.section-break-bottom {
+  padding: 100px 0;
+}
+
+:target:before {
+  content:"";
+  display: block;
+  height: 90px;
+  margin: -90px 0 0;
+}
+/*========================================
+*
+*           booking/contact
+*
+*
+*=========================================*/
+
+.label_input_wrap {
+  vertical-align: top;
+  display:block;
+}
+
+.label_input_wrap::before {
+  color:red;
+  content: "*";
+}
+
+.booking-section p {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+  padding: 9px 11px;
+}
+
+.submit input {
+  background: #3aa4d4;
+  color: white;
+  font-family: 'Charter', serif;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.booking-section {
+  text-align: center;
+}
+
+.contact-form {
+  background: white;
+  padding: 20px;
+  max-width: 550px;
+  border-radius: 4px;
+  color: black;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form div {
+  margin-bottom: 10px;
+}
+
+.contact-form h4 {
+  margin-bottom: 10px;
+}
+
+.input-section:last-child {
+  text-align: center;
+}
+
+::selection {
+  background: white;
+  color: black;
+}
+
 
 footer {
 	background-color: #000000;
