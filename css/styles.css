@@ -202,11 +202,9 @@ h2, p {
 *=========================================*/
 .works p{
 text-align:center;
-width:500px;
+width:700px;
 max-width:100%;
-margin: 0 auto;
-float: left;
-flex: 1;
+margin: auto;
 }
 
 .works img {
@@ -226,11 +224,10 @@ flex: 1;
 }
 
 .mediaplayer div {
-  float: right;
-  display: inline-block;
-  max-width: 450px;
+  display: block;
+  max-width: 550px;
 	width: 100%;
-	flex:1;
+	margin: auto;
 }
 
 /*========================================
@@ -371,7 +368,8 @@ footer {
 	}
 
 	.contactform {
-		width: 100%;
+		max-width: 400px;
+		width:100%;
 	}
 }
 /* ************* START 690 MEDIA QUERY ********** */
